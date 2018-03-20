@@ -21,6 +21,8 @@ if( ENABLE_XRDCL )
   add_subdirectory( XrdCl )
 endif()
 
+add_subdirectory( XrdTls )
+
 include( XrdServer )
 include( XrdDaemons )
 include( XrdFrm )
